@@ -1,0 +1,28 @@
+name: malins_nuggets
+description: "A birthday game for Malin, where you're supposed to collect as many nuggets in your nose as possible."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flame: ^1.24.0
+  flutter:
+    sdk: flutter
+  flutter_soloud: ^2.1.7
+
+dev_dependencies:
+  flame_lint: ^1.2.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/parallax/
+    - assets/sound/
+
+  fonts:
+    - family: Handlee
+      fonts:
+        - asset: assets/fonts/Handlee-Regular.ttf
